@@ -21,6 +21,6 @@ public class EmailController {
 
     @GetMapping("/welcome")
     public String welcome() {
-        return "Hello, welcome to jenkins ci/cd app automatic";
+        return "Hello, welcome to jenkins ci/cd app automatic deploy";
     }
 }
